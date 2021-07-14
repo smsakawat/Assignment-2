@@ -2,7 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/* tournament detail styles */
+/* tournament title styles */
 .title-container{
     background-color: #2D25A0;
     height: 677px;
@@ -61,7 +61,7 @@ body{
     padding-left: 8px;
 }
 
-/*top player styles */
+/*top players styles */
 .player-container{
     margin-top: 70px;
     margin-left: 180px;
@@ -123,13 +123,11 @@ body{
     box-shadow: 3px 3px 8px grey;
     padding:10px 10px 10px 10px;
 }
-
- .scores{
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px grey;
-    padding:10px 10px 10px 10px;
-    
- }
+.schedules{
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px grey;
+        padding:10px 10px 10px 10px;
+    }
  .score{
       width: 100%;
       display: flex;
@@ -148,16 +146,19 @@ body{
 
 .logo img{
    margin-bottom: 20px;
-   width: 350px;
+   width: 380px;
    height: 150px;
    margin-top:50px;
 }
-.media-icons img{
+.media-icons i{
     width: 32px;
     height: 32px;
-    padding-right: 14px;
+    padding-right: 30px;
+    color:#031321 ;
+    font-size: 3em;
     
 }
+
 .copyright p{ 
     font-size: 18px;
     color: rgb(0, 0, 0);
@@ -176,9 +177,9 @@ body{
         justify-content: center;
         align-items: center;
         height: 950px;
-        width: 420px;
+        width: 500px;
         margin:0;
-        padding-right: 60px;
+        padding-right: 50px;
     }
     .tournament-detail{
         width: 80%;
@@ -208,7 +209,7 @@ body{
         align-items: center;
     }
     .player{
-        width: 340px;
+        width: 320px;
         margin-left: 90px;
     }
     .news{
