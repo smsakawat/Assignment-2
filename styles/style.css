@@ -153,9 +153,9 @@ body{
 .media-icons i{
     width: 32px;
     height: 32px;
-    padding-right: 30px;
+    padding-right: 20px;
     color:#031321 ;
-    font-size: 3em;
+    font-size: 2em;
     
 }
 
@@ -209,8 +209,8 @@ body{
         align-items: center;
     }
     .player{
-        width: 320px;
-        margin-left: 90px;
+        width: 380px;
+        margin-left: 150px;
     }
     .news{
         width: 100%;
@@ -218,6 +218,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 60px;
 
     }
     .score{
