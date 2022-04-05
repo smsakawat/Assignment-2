@@ -1,294 +1,280 @@
 /* common styles or utilities */
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /* tournament title styles */
-.title-container{
-    background-color: #2D25A0;
-    height: 677px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr); 
-    align-items: center;
-    grid-row-gap: 102px;
+.title-container {
+  background-color: #2d25a0;
+  height: 677px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-row-gap: 102px;
 }
-.tournament-detail{
-    padding-left: 156px;
-   
+.tournament-detail {
+  padding-left: 156px;
 }
-.tournament-title{
- font-weight: 700;
- font-size: 64px;
- color: #FFFFFF;
+.tournament-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
 }
-    
-.banner img{
-    margin: 0;
-    width: 430px;
-    height: 428px;
-    padding-top: 135px;
-    padding-bottom: 114px;
-    padding-left: 129px;
-  
+
+.banner img {
+  margin: 0;
+  width: 430px;
+  height: 428px;
+  padding-top: 135px;
+  padding-bottom: 114px;
+  padding-left: 129px;
 }
 /* button styles */
-.button{
-    margin-top: 27px;
-    padding: 15px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #031321;
-    width: 230px;
+.button {
+  margin-top: 27px;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #031321;
+  width: 230px;
 }
 .button a {
-    position: relative;
-    display: inline-block;
-    padding:10px 56px 10px 24px;
-    color: #2196f3;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 18px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
 }
-.button a:hover{
-    color: #255784;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+.button a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
-.fa-arrow-right{
-    padding-left: 8px;
+.fa-arrow-right {
+  color: #fff;
+  padding-left: 8px;
 }
 
 /*top players styles */
-.player-container{
-    margin-top: 70px;
-    margin-left: 180px;
-    margin-right: 210px;
+.player-container {
+  margin-top: 70px;
+  margin-left: 180px;
+  margin-right: 210px;
 }
-.players{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    justify-content: center;
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
 }
-.player{
-        box-shadow: 3px 3px 8px grey;
-        padding:15px 15px 15px 15px;
-        margin: 0px;
-        height: 474px;
+.player {
+  box-shadow: 3px 3px 8px grey;
+  padding: 15px 15px 15px 15px;
+  margin: 0px;
+  height: 474px;
+  border-radius: 4px;
 }
-.player img{
-    width: 300px;
-    height: 256px;
+.player img {
+  width: 300px;
+  height: 256px;
 }
-.player-name{
-    font-size: 28px;
-    color: #18191F;
-    margin: 10px 0px;
+.player-name {
+  font-size: 28px;
+  color: #18191f;
+  margin: 10px 0px;
 }
-.player-info{
-    color: #6C6C6C;
-    margin: 10px 0px;
+.player-info {
+  color: #6c6c6c;
+  margin: 10px 0px;
 }
- /* results and schedules styles */
- .news-title{
-     color:#2D25A0;
-     font-weight: 700;
-     text-align: center;
-     margin-top: 30px;
-     font-size: 2em;
- }
- .news{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    width: 90%;
-    margin-top:20px;
-    margin-left: 5%;
-    margin-right: 5%;
-
-    
-   
-    
- }
- .results{
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px grey;
-    padding:10px 10px 10px 10px;
+/* results and schedules styles */
+.news-title {
+  color: #2d25a0;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2em;
 }
-.schedules{
-        border-radius: 10px;
-        box-shadow: 3px 3px 8px grey;
-        padding:10px 10px 10px 10px;
-    }
- .score{
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-     align-items: center;
-     
- }
+.news {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.results {
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px grey;
+  padding: 10px 10px 10px 10px;
+}
+.schedules {
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px grey;
+  padding: 10px 10px 10px 10px;
+}
+.score {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 /* footer styles */
-.footer-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo img{
-   margin-bottom: 20px;
-   width: 380px;
-   height: 150px;
-   margin-top:50px;
+.logo img {
+  margin-bottom: 20px;
+  width: 380px;
+  height: 150px;
+  margin-top: 50px;
 }
-.media-icons i{
-    width: 32px;
-    height: 32px;
-    padding-right: 20px;
-    color:#031321 ;
-    font-size: 2em;
-    
-}
-
-.copyright p{ 
-    font-size: 18px;
-    color: rgb(0, 0, 0);
+.media-icons i {
+  width: 32px;
+  height: 32px;
+  padding-right: 20px;
+  color: #031321;
+  font-size: 2em;
 }
 
+.copyright p {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
 
 /* media query for mobile devices */
-@media only screen and (max-width:600px){
-    body{
-        width: 100%;
-        margin:0;
-    }
-    .title-container{
-          display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 950px;
-        width: 500px;
-        margin:0;
-        padding-right: 50px;
-    }
-    .tournament-detail{
-        width: 80%;
-        padding-top: 90px;
-        padding-right: 50px;
-    
-    }
-    .banner { 
-        margin-top:0;
-        width: 330px;
-        height: 190px;
-        padding-right: 30px;
-        padding-bottom: 50px;
-        margin-bottom: 200px;
-    }
-    .banner img{
-        margin-top:0;
-        padding:0;
-        width: 330px;
-        height: 290px;
-    }
-    .players{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .player{
-        width: 380px;
-        margin-left: 150px;
-    }
-    .news{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 60px;
-
-    }
-    .score{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
-        
-    }
-    .logo img {
-        width: 290px;
-        height: 110px;
-    }
-    
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    width: 500px;
+    margin: 0;
+    padding-right: 50px;
+  }
+  .tournament-detail {
+    width: 80%;
+    padding-top: 90px;
+    padding-right: 50px;
+  }
+  .banner {
+    margin-top: 0;
+    width: 330px;
+    height: 190px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 200px;
+  }
+  .banner img {
+    margin-top: 0;
+    padding: 0;
+    width: 330px;
+    height: 290px;
+  }
+  .players {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .player {
+    width: 380px;
+    margin-left: 150px;
+  }
+  .news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+  .score {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .logo img {
+    width: 290px;
+    height: 110px;
+  }
 }
 /* media query for tab and ipads */
-@media only screen and (min-width:601px) and (max-width:992px){
-    body{
-        width: 100%;
-        margin:0;
-    }
-    .title-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 1024px;
-        width: 924px;
-        margin:0;
-        padding-right: 60px;
-    }
-    .tournament-detail{
-        width: 50%;
-        padding-top: 90px;
-        padding-right: 50px;
-    
-    }
-    .banner { 
-        margin-top:0;
-        width: 330px;
-        height: 190px;
-        padding-right: 30px;
-        padding-bottom: 50px;
-        margin-bottom: 200px;
-    }
-    .banner img{
-        margin-top:0;
-        padding:0;
-        width: 385px;
-        height: 330px;
-}
-.players{
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+    width: 924px;
+    margin: 0;
+    padding-right: 60px;
+  }
+  .tournament-detail {
+    width: 50%;
+    padding-top: 90px;
+    padding-right: 50px;
+  }
+  .banner {
+    margin-top: 0;
+    width: 330px;
+    height: 190px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 200px;
+  }
+  .banner img {
+    margin-top: 0;
+    padding: 0;
+    width: 385px;
+    height: 330px;
+  }
+  .players {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-evenly;
     align-items: center;
     margin-left: 110px;
-} 
-.player{
+  }
+  .player {
     padding: 20px 40px 20px 40px;
-   
-} 
-.news{
+  }
+  .news {
     width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   margin-left:13%;
-   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 13%;
+  }
 }
-
-}  
